@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="design.css">
+    <title>Novo Usuário</title>
+   <link rel="stylesheet" href="design.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -22,23 +22,22 @@
             </picture>
         </div>
 
-        <div class="card-info">
-            <h1>ENTRAR NO SISTEMA DE RECADOS</h1>
-            <input type="text" id="usuario" placeholder="USER NAME">
-            <input type="password" id="password" placeholder="PASSWORD">
+        <div class="card-new-user">
+            <h1>CRIAR CONTA</h1>
+            <input type="text" class="input2" id="usuario" placeholder="USER NAME">
             <br>
-            <input type="button" value="ENTRAR" class="button" onclick="entrar()">
+            <input type="password" class="input2" id="password" placeholder="PASSWORD">
             <br>
-            <input type="button" value="CRIAR CONTA" class="button" onclick="location.href='newuser.html'">
+            <input type="password" class="input2" id="password2" placeholder="REPEAT PASSWORD">
+            <br>
+            <input type="button" value="CRIAR CONTA AGORA!" class="button" onclick="criarConta()">
+            
         </div>
 
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="api.js"></script>
-    <script src="login.js"></script>
     <script src="newuser.js"></script>
-    
 </body>
 
 </html>

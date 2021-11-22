@@ -1,0 +1,131 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(186, 206, 212);
+}
+
+.container {
+  display: flex;
+}
+
+.card-image {
+  padding: 120px 20px 100px 40px;
+  width: 50%;
+  text-align: center;
+}
+
+.card-info {
+  padding: 300px 40px 60px 20px;
+  width: 50%;
+  text-align: center;
+  color:black;
+  font-size: 12px;
+}
+
+.foto {
+  height: 500px;
+  width: 500px;
+}
+
+.button {
+  height: 40px;
+  width: 420px;
+  color: gray;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 200px;
+}
+
+.card-new-user {
+  padding: 300px 40px 60px 20px;
+  width: 50%;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}
+
+.input2 {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 410px;
+}
+
+.desc {
+  width: 400px;
+  height: 40px;
+}
+
+.deta {
+  width: 600px;
+  height: 40px;
+}
+
+.salva {
+  border: none;
+  width: 120px;
+  height: 40px;
+  color: gray;
+}
+
+.mostra {
+  border: none;
+  width: 150px;
+  height: 40px;
+  color: gray;
+}
+
+form {
+  margin-left: 10px;
+  margin-top: 5px;
+  
+}
+
+.label {
+  font-size: 30px;
+}
+
+#msgError {
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+.logout {
+  border: none;
+  width: 120px;
+  height: 40px;
+  color: gray;
+}
+
+
+thead {
+  background-color: rgb(209, 207, 207);
+}
+
+button {
+  color: black;
+  border: none;
+  background-color:rgb(158, 158, 209);
+}
+
+
+th {
+  max-width: 100px;
+  width: 50%;
+  height: 20px;
+}
+
+td {
+  max-width: 100px;
+  width: 50%;
+  height: 20px;
+}
